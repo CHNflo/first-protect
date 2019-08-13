@@ -1,0 +1,84 @@
+﻿border: none; //去除按键边框
+:nth-child(1){};//选择相同类型的不同元素
+margin: 0 auto;//水平居中
+jquery Swiper;//轮播插件
+{
+		<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="images/lb.png"></div>
+			<div class="swiper-slide"><img src="images/lb.png"></div>
+			<div class="swiper-slide"><img src="images/lb.png"></div>
+			<div class="swiper-slide"><img src="images/lb.png"></div>
+		</div>
+		<div class="swiper-pagination"></div>
+}
+<link href="favicon.ico" rel="shortcut icon"> //定义标题栏图标
+
+if(($(".introduce .ppt1_js").offset().top-$(this).scrollTop()+100)<$(this).height()) //判断滚轮位置调用函数
+
+<link rel="stylesheet" type="text/css" href="./lib/scroll_height_animate.min.css"> //界面出现效果
+
+class="aniview" av-animation="fadeInDown" //html里定义anview动画
+
+if(($(".ppt4-2").offset().top-$(this).scrollTop()+100)<$(this).height())
+		{
+			var index1=0;
+			var addclass1;
+			addclass1=setInterval(function(){
+				if(index1>=$(".ppt4-2 ").height())
+				{
+					window.clearInterval(addclass1);
+					return;
+				}
+				else {
+					$(".dh").eq(index1).addClass("animated fadeIn").css("opacity",1);
+					index1++;
+				}
+			},300);
+		}	
+		if(($(".ppt4-3").offset().top-$(this).scrollTop()+100)<$(this).height())
+		{
+			var index2=0;
+			var addclass2;
+			addclass2=setInterval(function(){
+				if(index2>=$(".ppt4-3 ").height())
+				{
+					window.clearInterval(addclass2);
+					return;
+				}
+				else {
+					$(".ppt4-3 .dh2").eq(index2).addClass("animated fadeInLeftBig").css("opacity",1);
+					index2++;
+				}
+			},300);
+		}
+
+
+jquery.cbpQTRotator.js   jQuery和css3自动轮换的用户评论留言插件   http://www.htmleaf.com/jQuery/Layout-Interface/201501041101.html   example9-时间
+
+animation  动画属性
+
+React  https://www.runoob.com/react/react-install.html
+DOM
+AJAX
+
+  1、a:link{color:#fff}  未访问时的状态（鼠标点击前显示的状态）
+  2、a:hover{color:#fff}  鼠标悬停时的状态
+  3、a:visited{color:#fff}  已访问过的状态（鼠标点击后的状态）
+  4、a:active{color:#fff}  鼠标点击时的状态
+  5、a:focus{color:#fff}  点击后鼠标移开保持鼠标点击时的状态（只有在<a href="#"></a>时标签中有效）
+
+this  
+clearfix
+call
+render
+float
+API
+
+项目开始的初始化
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}

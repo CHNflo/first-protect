@@ -1,0 +1,28 @@
+.m-sub-menu a:hover {
+	
+	padding: 35px 15px;
+
+	background: #1f3183;
+	color: #fff;
+}
+.lb{
+	position: absolute;
+	top: 100px;
+}
+.lb .swipwe-container{
+	
+	width: 100%;
+	height: auto;
+}
+.lb .swiper-slide{
+	width: 100%;
+	height: auto;
+}
+.lb .swiper-slide img{
+	width: 100%;
+	height: 100%;
+
+}
+.shuzi{
+	
+}

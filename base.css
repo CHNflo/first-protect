@@ -1,0 +1,412 @@
+body {
+	font-family: sans-serif;
+}
+
+.m-sub-menu{
+	
+	height: 20%;
+}
+.welcome{
+	position: absolute;
+	left: 700px;
+	
+
+}
+.welcome a{
+	position: relative;
+	top:25px;
+
+	margin-left:80px;
+	
+	width: 115px;
+	height: 500px
+	
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:none;
+	text-align: center;
+	color: #060606;
+}
+
+.logo{
+	position: absolute;
+	left: 300px;
+	width: 10%;
+	height: 8%;
+
+}
+.lb{
+	position: absolute;
+	top: 100px;
+	overflow:hidden
+
+}
+.main 
+{
+	width: 70%;
+}
+.introduce
+{
+	position: absolute;
+	top: 800px;
+	background: url("images/bj.png");
+	width: 100%;
+	height: 950px;
+}
+
+.test{
+	position:relative;
+	top:60px;
+	left: 350px;
+	width: 550px;
+		
+}
+ button{
+	height: 30px;
+	width: 100px;
+	border-radius: 20px;
+	color: #ffffff;
+	background: #FF6300;
+	outline: none;
+	border: none;
+}
+
+.ppt1{
+	position: relative;
+	top:-400px;
+	left: 1000px;
+	
+
+
+}
+.ppt1_js{
+	position: relative;
+	top: -300px;
+	left: 360px;
+
+}
+.ppt1_js .list{
+	display: block;
+	background: #fff;
+	width: 300px;
+	height: 170px;
+	
+}
+.introduce .text1:nth-child(n){
+	position: relative;
+	top: 120px;
+	left: 100px;
+}
+.listbox:nth-child(1){
+	
+	background: #fff;
+	width: 300px;
+	height: 170px;
+	float: left;
+	border-right: 1px solid #F9F9F9;
+
+}
+.listbox:nth-child(2){
+	
+	background: #fff;
+	width: 300px;
+	height: 170px;
+	float: left;
+	border-right: 1px solid #F9F9F9;
+}
+.listbox:nth-child(3){
+	
+	background: #fff;
+	width: 300px;
+	height: 170px;
+	float: left;
+	border-right: 1px solid #F9F9F9;
+
+}
+.listbox:nth-child(4){
+	
+	background: #fff;
+	width: 300px;
+	height: 170px;
+	float: left;
+
+
+}
+.ppt2  .text2:nth-child(n){
+	position: relative;
+	top:-5px;
+}
+.ppt2{
+	position: absolute;
+	top: 1800px;
+	left: 350px;
+	
+	height: 800px;
+	
+}
+.ppt2 p{
+	text-align: center;
+}
+.pic2{
+	position: relative;
+	left: 500px;
+}
+.box{
+	position: relative;
+	top: 70px;
+	width: 1200px;
+}
+.listbox2:nth-child(n){
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 270px;
+	height: 250px;
+	box-shadow: 1px 1px 19px #F4F4F4, -1px 1px 5px #F4F4F4;
+	background: #fff
+	
+}
+.box2{
+	position: relative;
+	top: 100px;
+	width: 1200px;
+}
+ .ppt2 button{
+ 	position: relative;
+ 	top:50px;
+ }
+.ppt3{
+	position:absolute;
+	top:2600px;
+	background: url(images/bj.png);
+	
+	height: 800px;
+	width: 100%;
+}
+.pic3{
+	position: relative;
+	top: 40px;
+}
+.ppt3 button{
+ 	position: relative;
+ 	top:50px;
+ 	left: 550px;
+ }	
+.box3{
+	position: relative;
+	top: 70px;
+	left: 350px;
+	width: 1200px;
+}
+.box4{
+	position: relative;
+	top: 100px;
+	left: 350px;
+	width: 1200px;
+}
+.ppt4{
+	position: absolute;
+	top: 3400px;
+	width: 1200px;
+}
+.ppt4 .ppt4-1{
+	position: relative;
+	left: 350px;
+	top: 40px;
+	height: 40px;
+}
+.ppt4 .ppt4-2{
+	position: relative;
+	left: 350px;
+	top: 100px;
+	height: 500px;
+	border-bottom: 3px solid #000; 
+}
+
+.ppt4 .text{
+	
+	width: 460px;
+	height: 240px;
+	background: #f8f8f8;
+	 
+}
+.ppt4 .text span,p{
+	position: relative;
+	top: 5px;
+	margin-left: 10px;
+	
+}
+.ppt4 .pict1{
+
+	float: left;
+	margin-top: 10px;
+}
+.ppt4 .pict2{
+	position: relative;
+	top: -240px;
+	float: left;
+	margin-left: 10px;
+
+}
+
+.ppt4 .pict3{
+	position: relative;
+	float: left;
+	width: 225px;
+	top: -240px;
+	margin-left: 10px;
+}
+
+.ppt4 .pict4{
+	position: relative;
+	float: left;
+	width: 225px;
+	margin-left: 10px;
+	top: -240px;
+}
+.ppt4 .pict5{
+	position: relative;
+	float: left;
+	top: -240px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.ppt4 .m-style {
+	position: relative;
+	top: 240px;
+	border:1px solid #5563a0;
+	border-radius: 20px;
+	width: 20px; 
+	font-size: 16px;
+	color: #5563a0;
+
+}
+.ppt4 .ppt4-3{
+	position: relative;
+	top: 90px;
+	left: 350px;
+}
+.ppt4 .pic6{
+	position: relative;
+	top: -240px;
+	width: 225px;
+	float: left;
+	margin-left: 10px;
+}
+.ppt4 .pic7{
+	position: relative;
+	top: -240px;
+	width: 225px;
+	float: left;
+	margin-left: 10px;
+}
+.ppt4 .pic8{
+	position: relative;
+	left: -10px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.ppt4 .pic9{
+	position: relative;
+	float: left;
+	top: -240px;
+	margin-left: 10px;
+}
+.ppt4 .pic10{
+	position: relative;
+	top: -240px;
+	float: left;
+	margin-left: 10px;
+	margin-top:20px;
+}
+.ppt4 .text2{
+	
+	width: 460px;
+	height: 240px;
+	background: #f8f8f8;
+	 
+}
+.ppt4 .text2 p{
+	position: relative;
+	top:-200px;
+	margin-left: 10px;
+	
+}
+.ppt4 .m2-style{
+	position: relative;
+	top:-200px;
+	left: 10px;
+	border:1px solid #5563a0;
+	border-radius: 20px;
+	width: 20px; 
+	font-size: 16px;
+	color: #5563a0;
+
+}
+.ppt5 {
+	position: absolute;
+	top:4600px;
+	background: url(images/bj.png);
+	width: 100%;
+	height: 500px;
+
+}
+.ppt5 .ppt5-1{
+	position: relative;
+	left: 350px;
+	top: 30px;
+}
+
+.ppt5 .news:nth-child(n){
+	background: #fff;
+	width: 650px;
+	height: 80px;
+	margin-top: 10px;
+}
+.ppt5 .news span{
+	margin-left: 200px;
+	font-size: 10px;
+	color: #a2a2a2;
+	font-weight:100;
+}
+.ppt5 .pic11{
+	position: relative;
+	left: 685px;
+	top:-270px;
+}
+.ppt5 .ppt5-1 .bu{
+	position: relative;
+	top:-270px;
+}
+.about{
+	position: relative;
+	top: 5100px;
+	background: #222222;
+	height: 380px;
+}
+.about .about-1{
+	position: relative;
+	left: 350px;
+	top:50px;
+
+}
+.about .about-2{
+	position: relative;
+	top:-230px;
+	left: 750px;
+	height: 230px;
+	width: 800px;
+	border-bottom: 2px solid #d3d3d3;
+}
+.about .about-2 .about-pic{
+	position: relative;
+	top:-135px;
+	left: 600px;
+
+}
+.about .about-3{
+	position: relative;
+	top: -240px;
+	left: 750px;
+}
